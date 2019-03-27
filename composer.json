@@ -1,8 +1,8 @@
 {
-    "name": "spengembang/hello-composer",
-    "description": "this package is testing for my 1st landing code in composer package",
+    "name": "spengembang/get-workdays",
+    "description": "this package is to calculate how many days from the begining of day 0 to certain date or enddate",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.6.0"
     },
     "type": "library",
     "license": "MIT",
@@ -12,11 +12,13 @@
             "email": "sinaunengweb@gmail.com"
         }
     ],
-    "require": {},
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "spengembang\\HelloComposer\\": "src/"
+            "spengembang\\WorkDays\\": "src/"
         }
     }
 }
